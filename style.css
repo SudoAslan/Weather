@@ -1,0 +1,96 @@
+body {
+    background-image: url('./sky.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}  
+ 
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+}
+
+#searchInput {
+    text-align: center;
+    width: 300px;
+    height: 25px;
+    background-color: rgba(66, 125, 187, 0.952);
+    color: rgba(255, 247, 247, 0.841);
+    border: 2px solid rgba(38, 74, 112, 0.952);
+    border-radius: 10px;
+    margin: 10px 0px 10px 10px;
+}
+::placeholder {
+    color: rgba(254, 251, 251, 0.841);
+}
+#dataSearched {
+    margin-top: 80px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 90px;
+    height: 180px;
+    line-height: 45px;
+}
+
+.temp{
+    font-size: 90px;
+}
+.condition{
+    margin-right: 1px; 
+    font-size: 40px;
+}
+.minMax{
+    font-size: 30px;
+}
+td{
+    border-spacing: 40px;
+}
+#theNextDays{
+    justify-content: center;
+    margin-top: 80px;
+    max-width: 400px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 23px;
+
+}
+p{
+    text-align: center;
+}
+#tomorrow{
+    border-right: 2px solid rgb(16, 104, 176);
+    border-left:2px solid rgb(16, 104, 176) ;
+    background-color: rgb(25, 152, 255)
+}
+#todayPlusTwo{
+    border-right: 2px solid rgb(16, 104, 176);
+    border-left:2px solid rgb(16, 104, 176) ;
+    background-color: rgb(25, 152, 255)
+}
+#todayPlusThree{
+    border-right: 2px solid rgb(16, 104, 176);
+    border-left:2px solid rgb(16, 104, 176) ;
+    background-color: rgb(25, 152, 255)
+}
+
+
+
+
+
+ 
