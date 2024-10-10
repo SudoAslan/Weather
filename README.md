@@ -1,4 +1,6 @@
 
+![WeaatherHomepage](./WeaatherHomepage.png)
+
 # aslan
 Project 2
 
